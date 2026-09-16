@@ -25,3 +25,4 @@ jobs:
           context: .
           push: true
           tags: cloudlabhost/devops-lab-site:latest
+                cloudlabhost/devops-lab-site:${{ github.sha }}
